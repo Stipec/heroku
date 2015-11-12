@@ -1,0 +1,8 @@
+<div class=container >
+    <h1>Anagrams for <%= "#{@word}" %></h1>
+        <ul>
+            <% for x in 0..@anagrams.length-1 %>
+            <li><%= "#{@anagrams[x]}" %></li>
+            <% end %>
+        </ul>  
+</div>
