@@ -9,3 +9,5 @@ gem 'sinatra-activerecord'
 gem 'rake'
 gem 'rack'
 gem 'rack-test'
+
+ruby '2.1.2'
