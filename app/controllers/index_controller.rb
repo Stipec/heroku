@@ -8,7 +8,6 @@ get '/anagrams/:word' do
   erb :show
 end
 
-
 post '/' do
   @word = params[:word]
   redirect "/anagrams/#{@word}"
